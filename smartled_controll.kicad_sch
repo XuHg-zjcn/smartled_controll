@@ -827,7 +827,7 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND23"
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -842,7 +842,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23"
+			(property "Value" "Crystal_GND24"
 				(at 3.175 3.175 0)
 				(effects
 					(font
@@ -869,7 +869,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -896,7 +896,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -1005,7 +1005,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND23_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1043,7 +1043,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "3"
 						(effects
@@ -1061,7 +1061,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 -5.08 90)
 					(length 1.27)
 					(name "4"
 						(effects
@@ -2203,7 +2203,7 @@
 				)
 			)
 		)
-		(symbol "Device:L_Coupled"
+		(symbol "Device:L_Coupled_1243"
 			(pin_names
 				(offset 0.254) hide)
 			(exclude_from_sim no)
@@ -2217,7 +2217,7 @@
 					)
 				)
 			)
-			(property "Value" "L_Coupled"
+			(property "Value" "L_Coupled_1243"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -2270,7 +2270,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_Coupled_0_1"
+			(symbol "L_Coupled_1243_0_1"
 				(circle
 					(center -3.048 -1.27)
 					(radius 0.254)
@@ -2462,7 +2462,7 @@
 					)
 				)
 			)
-			(symbol "L_Coupled_1_1"
+			(symbol "L_Coupled_1243_1_1"
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 2.54)
@@ -2500,7 +2500,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -2518,7 +2518,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -8397,6 +8397,26 @@
 		)
 		(uuid "15754c87-f084-426a-a394-0659ce03eb8a")
 	)
+	(label "485-"
+		(at 22.86 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18f4c517-fefc-4880-90e2-e590c7fc695f")
+	)
+	(label "485+"
+		(at 22.86 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e8004a7-1fc0-46fa-9a7d-23d02999a2c5")
+	)
 	(label "VIN+"
 		(at 45.72 29.21 180)
 		(effects
@@ -8406,16 +8426,6 @@
 			(justify right bottom)
 		)
 		(uuid "213f0561-01e6-4f6e-9801-d135f3b167a5")
-	)
-	(label "485+"
-		(at 22.86 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2915f503-49c6-4fe3-a26c-e14c029cb631")
 	)
 	(label "VIN-"
 		(at 45.72 49.53 180)
@@ -8526,16 +8536,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f80198f-63a8-4009-9f0e-f0e8189b622f")
-	)
-	(label "485-"
-		(at 22.86 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "728ae150-8cc7-4523-bb60-3a87e2b52e2f")
 	)
 	(label "VIN+"
 		(at 22.86 34.29 180)
@@ -8821,7 +8821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 169.8752 146.05 0)
 			(effects
 				(font
@@ -9031,7 +9031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 144.78 132.08 0)
 			(effects
 				(font
@@ -9299,7 +9299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 219.4052 50.8 0)
 			(effects
 				(font
@@ -9637,7 +9637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.47 80.01 0)
 			(effects
 				(font
@@ -9773,7 +9773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 163.83 140.97 0)
 			(effects
 				(font
@@ -10382,7 +10382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.27 41.402 90)
 			(effects
 				(font
@@ -10584,7 +10584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 140.97 47.498 90)
 			(effects
 				(font
@@ -10654,7 +10654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 66.04 44.45 0)
 			(effects
 				(font
@@ -10938,7 +10938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 131.572 44.45 90)
 			(effects
 				(font
@@ -11318,7 +11318,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND23")
+		(lib_id "Device:Crystal_GND24")
 		(at 110.49 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11343,7 +11343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 110.49 102.87 0)
 			(effects
 				(font
@@ -11361,7 +11361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 110.49 102.87 0)
 			(effects
 				(font
@@ -11556,7 +11556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
 			(at 133.35 130.81 0)
 			(effects
 				(font
@@ -11760,7 +11760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 143.002 142.24 90)
 			(effects
 				(font
@@ -11896,7 +11896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 150.8252 146.05 0)
 			(effects
 				(font
@@ -11968,7 +11968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 55.88 54.61 0)
 			(effects
 				(font
@@ -13084,7 +13084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.052 132.08 90)
 			(effects
 				(font
@@ -13521,7 +13521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 126.492 142.24 90)
 			(effects
 				(font
@@ -13659,7 +13659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.6 109.22 0)
 			(effects
 				(font
@@ -14646,14 +14646,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Coupled")
+		(lib_id "Device:L_Coupled_1243")
 		(at 198.12 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e60c0ae9-ab9f-42ed-82b7-65b1e4238cb0")
 		(property "Reference" "L1"
 			(at 197.739 74.93 0)
@@ -14746,7 +14745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 106.68 109.22 0)
 			(effects
 				(font
@@ -14963,7 +14962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 239.7252 50.8 0)
 			(effects
 				(font
@@ -15031,7 +15030,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.27 39.878 90)
 			(effects
 				(font
@@ -15241,7 +15240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.052 34.29 90)
 			(effects
 				(font
