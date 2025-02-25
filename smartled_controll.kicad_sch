@@ -1821,7 +1821,7 @@
 				)
 			)
 		)
-		(symbol "Device:GDT_2Pin"
+		(symbol "Device:GDT_3Pin"
 			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1834,7 +1834,7 @@
 					)
 				)
 			)
-			(property "Value" "GDT_2Pin"
+			(property "Value" "GDT_3Pin"
 				(at 7.62 0 90)
 				(effects
 					(font
@@ -1860,7 +1860,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Gas Discharge Tube with 2 Pins"
+			(property "Description" "Gas Discharge Tube with 3 Pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1878,7 +1878,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "GDT_2Pin_0_1"
+			(symbol "GDT_3Pin_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -2.54) (xy 0 -1.27)
@@ -1951,6 +1963,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.27 0) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 0 0)
 					(radius 3.5814)
@@ -2007,7 +2031,7 @@
 					)
 				)
 			)
-			(symbol "GDT_2Pin_1_1"
+			(symbol "GDT_3Pin_1_1"
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -2019,6 +2043,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5860,12 +5902,6 @@
 		(uuid "43525b21-e1fa-44d5-9b24-400fc71bf834")
 	)
 	(junction
-		(at 250.19 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "466d511f-19e3-452b-a300-7322892badab")
-	)
-	(junction
 		(at 80.01 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5918,6 +5954,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72220863-9635-45cf-87da-7e450b0088c9")
+	)
+	(junction
+		(at 250.19 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74679efa-e3d1-48ad-8d47-d61b47179633")
 	)
 	(junction
 		(at 85.09 153.67)
@@ -6269,6 +6311,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 88.9) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f84122-43a9-4a64-9847-2121bce7d0b1")
+	)
+	(wire
+		(pts
 			(xy 81.28 78.74) (xy 81.28 80.01)
 		)
 		(stroke
@@ -6579,23 +6631,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 80.01) (xy 246.38 90.17)
+			(xy 246.38 80.01) (xy 246.38 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32426291-cf92-4b39-87de-9039d0c20661")
-	)
-	(wire
-		(pts
-			(xy 246.38 100.33) (xy 246.38 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32dd0169-bceb-43b4-94a6-ce80ed6f0a3c")
 	)
 	(wire
 		(pts
@@ -6759,6 +6801,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 99.06) (xy 259.08 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eed89fd-4780-47b1-8cc2-d7a2f6ee77ed")
+	)
+	(wire
+		(pts
 			(xy 195.58 41.91) (xy 195.58 38.1)
 		)
 		(stroke
@@ -6796,26 +6848,6 @@
 			(type default)
 		)
 		(uuid "4017a362-061d-4724-af0d-8f246e05ffd7")
-	)
-	(wire
-		(pts
-			(xy 254 102.87) (xy 250.19 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40f7bee9-947e-43f6-9360-c45464ba2861")
-	)
-	(wire
-		(pts
-			(xy 246.38 102.87) (xy 250.19 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "420f498c-4bb7-4f50-989c-0ce23d6f1b46")
 	)
 	(wire
 		(pts
@@ -7119,6 +7151,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 107.95) (xy 250.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6966d9a0-0c0d-4ef0-9194-e600a39df90d")
+	)
+	(wire
+		(pts
 			(xy 209.55 102.87) (xy 205.74 102.87)
 		)
 		(stroke
@@ -7169,6 +7211,26 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 99.06) (xy 241.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9cbb1a-d822-4cd2-8ef3-378a3141b23d")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9b02b8-9d86-4f04-85d0-53856581fe75")
+	)
+	(wire
+		(pts
 			(xy 209.55 90.17) (xy 212.09 90.17)
 		)
 		(stroke
@@ -7186,6 +7248,16 @@
 			(type default)
 		)
 		(uuid "7087dc66-e499-41fe-ac49-6d800e7f45ff")
+	)
+	(wire
+		(pts
+			(xy 259.08 107.95) (xy 250.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d0e98f-5148-4963-b271-afa670c53804")
 	)
 	(wire
 		(pts
@@ -7489,6 +7561,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 93.98) (xy 68.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93fe6d84-9315-41fc-9860-d4bdf194b0d3")
+	)
+	(wire
+		(pts
 			(xy 104.14 99.06) (xy 104.14 101.6)
 		)
 		(stroke
@@ -7496,6 +7578,16 @@
 			(type default)
 		)
 		(uuid "943ae0d7-1b74-40a0-a140-e28eb87b5e5d")
+	)
+	(wire
+		(pts
+			(xy 67.31 109.22) (xy 68.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a2db87-fb0d-4a74-a202-1d2e8476bbba")
 	)
 	(wire
 		(pts
@@ -7539,17 +7631,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 100.33) (xy 254 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a562eb24-da48-467d-bde9-727119d376a5")
-	)
-	(wire
-		(pts
-			(xy 254 85.09) (xy 254 90.17)
+			(xy 254 85.09) (xy 254 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7686,16 +7768,6 @@
 			(type default)
 		)
 		(uuid "c31a8bd8-5249-4d85-8d6e-39e3c0a47eb4")
-	)
-	(wire
-		(pts
-			(xy 250.19 102.87) (xy 250.19 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3722185-d229-48ee-a9de-42b7c398f50c")
 	)
 	(wire
 		(pts
@@ -8378,7 +8450,7 @@
 		(uuid "04d34ee1-3ad0-42dd-8060-7c57b9662b60")
 	)
 	(label "PWM1"
-		(at 50.8 92.71 180)
+		(at 67.31 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8448,7 +8520,7 @@
 		(uuid "40cd0291-ccec-43af-a654-c022a349ba88")
 	)
 	(label "PWM2"
-		(at 50.8 95.25 180)
+		(at 67.31 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8618,7 +8690,7 @@
 		(uuid "93c3cbdc-b330-4a67-b80e-0dde6ec46986")
 	)
 	(label "PWM3"
-		(at 50.8 97.79 180)
+		(at 67.31 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8668,7 +8740,7 @@
 		(uuid "d2aa2d89-c201-4364-b824-54fc792f9f81")
 	)
 	(label "PWM4"
-		(at 50.8 100.33 180)
+		(at 67.31 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12012,7 +12084,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 104.14 0)
+		(at 250.19 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12021,7 +12093,7 @@
 		(fields_autoplaced yes)
 		(uuid "603b23f7-e7ca-4d4c-81ff-cabe0b075528")
 		(property "Reference" "#PWR09"
-			(at 250.19 110.49 0)
+			(at 250.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12030,7 +12102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 109.22 0)
+			(at 250.19 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12038,7 +12110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 104.14 0)
+			(at 250.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12047,7 +12119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 104.14 0)
+			(at 250.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12056,7 +12128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 104.14 0)
+			(at 250.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12102,7 +12174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 198.12 44.958 90)
 			(effects
 				(font
@@ -12211,9 +12283,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:GDT_2Pin")
-		(at 246.38 95.25 0)
-		(mirror y)
+		(lib_id "Device:GDT_3Pin")
+		(at 246.38 99.06 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12221,7 +12293,7 @@
 		(dnp no)
 		(uuid "6eec160a-9bb7-476b-bf9a-122b0bfcc1c2")
 		(property "Reference" "GD1"
-			(at 241.3 93.9799 0)
+			(at 251.46 100.3301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12230,7 +12302,7 @@
 			)
 		)
 		(property "Value" "GDT_2Pin"
-			(at 241.3 96.5199 0)
+			(at 251.46 97.7901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12239,7 +12311,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
-			(at 246.38 95.25 90)
+			(at 246.38 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12248,7 +12320,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 95.25 90)
+			(at 246.38 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12256,8 +12328,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gas Discharge Tube with 2 Pins"
-			(at 246.38 95.25 0)
+		(property "Description" "Gas Discharge Tube with 3 Pins"
+			(at 246.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12270,6 +12342,9 @@
 		)
 		(pin "3"
 			(uuid "4d46da87-2b17-447d-ace8-bd03a028c173")
+		)
+		(pin "2"
+			(uuid "eabf9c63-9735-4adb-8917-8afded4f8454")
 		)
 		(instances
 			(project ""
@@ -12376,7 +12451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 191.262 48.26 90)
 			(effects
 				(font
@@ -12917,8 +12992,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:GDT_2Pin")
-		(at 254 95.25 0)
+		(lib_id "Device:GDT_3Pin")
+		(at 254 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12927,7 +13002,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e088fe9-898e-4445-8b6d-228f0556b895")
 		(property "Reference" "GD2"
-			(at 259.08 93.9799 0)
+			(at 248.92 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12936,7 +13011,7 @@
 			)
 		)
 		(property "Value" "GDT_2Pin"
-			(at 259.08 96.5199 0)
+			(at 248.92 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12945,7 +13020,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
-			(at 254 95.25 90)
+			(at 254 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12954,7 +13029,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 95.25 90)
+			(at 254 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12962,8 +13037,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gas Discharge Tube with 2 Pins"
-			(at 254 95.25 0)
+		(property "Description" "Gas Discharge Tube with 3 Pins"
+			(at 254 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12976,6 +13051,9 @@
 		)
 		(pin "3"
 			(uuid "2776123e-1667-4d17-98d0-1d58d36c3e22")
+		)
+		(pin "2"
+			(uuid "939ff285-3853-4de1-8eca-730daa1c03c1")
 		)
 		(instances
 			(project "smartled_controll"
