@@ -6541,6 +6541,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 93.98) (xy 82.55 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b453291-82f4-4b13-82f6-2682330d492f")
+	)
+	(wire
+		(pts
 			(xy 133.35 38.1) (xy 132.08 38.1)
 		)
 		(stroke
@@ -8461,6 +8471,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 91.44) (xy 82.55 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6a3314-7eae-46ac-a400-f7c2a95bcd7d")
+	)
+	(wire
+		(pts
 			(xy 22.86 34.29) (xy 24.13 34.29)
 		)
 		(stroke
@@ -9179,16 +9199,6 @@
 		)
 		(uuid "04d34ee1-3ad0-42dd-8060-7c57b9662b60")
 	)
-	(label "PWM1"
-		(at 81.28 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "14f4ded9-95eb-4c91-934b-1728ddd9b69d")
-	)
 	(label "MAX485_RO"
 		(at 161.29 82.55 180)
 		(effects
@@ -9280,7 +9290,7 @@
 		(uuid "420ec888-8a7c-4c51-ae85-107d01592644")
 	)
 	(label "ADC_V"
-		(at 50.8 82.55 180)
+		(at 81.28 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9429,16 +9439,6 @@
 		)
 		(uuid "93c3cbdc-b330-4a67-b80e-0dde6ec46986")
 	)
-	(label "PWM3"
-		(at 81.28 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9edca8bb-b468-4a61-9f3f-69d2fc3ad7fc")
-	)
 	(label "RGBLED_WS2812"
 		(at 50.8 102.87 180)
 		(effects
@@ -9458,6 +9458,16 @@
 			(justify left bottom)
 		)
 		(uuid "aff5dc2d-f881-4aab-bdec-cb91891f8768")
+	)
+	(label "PWM1"
+		(at 81.28 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc9b917c-9e51-4185-b329-95585641f6ee")
 	)
 	(label "SampEn"
 		(at 50.8 80.01 180)
@@ -9539,8 +9549,18 @@
 		)
 		(uuid "f404778a-ee2c-464d-aef2-5349606461c3")
 	)
+	(label "PWM3"
+		(at 81.3449 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe0f6350-acd2-4201-a626-d95c3b3d928e")
+	)
 	(label "ADC_I"
-		(at 50.8 85.09 180)
+		(at 81.28 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
