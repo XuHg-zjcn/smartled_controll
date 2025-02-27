@@ -6821,6 +6821,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 88.9) (xy 82.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8a0b32-ea3f-4e8d-abd9-ee792604c683")
+	)
+	(wire
+		(pts
 			(xy 193.04 85.09) (xy 193.04 87.63)
 		)
 		(stroke
@@ -7818,6 +7828,16 @@
 			(type default)
 		)
 		(uuid "81952821-6bfa-4ce1-80cd-f1d961408495")
+	)
+	(wire
+		(pts
+			(xy 81.28 86.36) (xy 82.55 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e37d91-bb00-4b64-ab2f-c9d7f8841559")
 	)
 	(wire
 		(pts
@@ -8981,6 +9001,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 81.28) (xy 82.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed907ba8-ad54-41ad-aa2a-6a71b7d5c183")
+	)
+	(wire
+		(pts
 			(xy 80.01 29.21) (xy 80.01 35.56)
 		)
 		(stroke
@@ -9400,7 +9430,7 @@
 		(uuid "85de5bc5-7a57-4828-9a4f-49e67e6806c1")
 	)
 	(label "ADC_PD"
-		(at 50.8 87.63 180)
+		(at 81.28 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9410,7 +9440,7 @@
 		(uuid "8c0cb96e-81f3-486d-a3ad-20ae60a36041")
 	)
 	(label "ADC_T"
-		(at 50.8 90.17 180)
+		(at 81.28 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9470,7 +9500,7 @@
 		(uuid "bc9b917c-9e51-4185-b329-95585641f6ee")
 	)
 	(label "SampEn"
-		(at 50.8 80.01 180)
+		(at 81.28 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9550,7 +9580,7 @@
 		(uuid "f404778a-ee2c-464d-aef2-5349606461c3")
 	)
 	(label "PWM3"
-		(at 81.3449 83.82 180)
+		(at 81.28 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10011,7 +10041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 144.78 132.08 0)
 			(effects
 				(font
@@ -10957,7 +10987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 163.83 140.97 0)
 			(effects
 				(font
