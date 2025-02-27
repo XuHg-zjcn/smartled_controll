@@ -58,7 +58,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "solder_mask_bridge|184900000|75890000|58ba1dc6-9846-4d9f-9a0c-987c52fd0f8d|cfa2cc3f-9a25-41f7-949c-90fe737b1017"
+      ],
       "meta": {
         "version": 2
       },
@@ -127,7 +129,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,

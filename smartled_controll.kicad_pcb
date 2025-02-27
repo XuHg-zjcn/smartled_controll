@@ -1102,7 +1102,7 @@
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U5"
-			(at 0 -2.4 0)
+			(at 0 -2.27125 0)
 			(layer "F.SilkS")
 			(uuid "8c76b42e-4d80-423e-b6f4-2fb815e2c748")
 			(effects
@@ -6653,7 +6653,7 @@
 		(descr "Inductor, APV, APH0630, 6.8x6.6x2.8mm, (http://en.apvind.com/public/upload/20240408/996aafa961154ed753e4983e7eb80fa7.pdf), generated with kicad-footprint-generator gen_inductor.py")
 		(tags "Inductor molded power shielded")
 		(property "Reference" "L3"
-			(at 0 -4.3 0)
+			(at 4.59325 -2.965 0)
 			(layer "F.SilkS")
 			(uuid "6e8bebb1-f76d-4771-837b-b84cdc44e20e")
 			(effects
@@ -8725,7 +8725,7 @@
 		(descr "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html")
 		(tags "SMD SMT button")
 		(property "Reference" "SW1"
-			(at 0.72 2.21 90)
+			(at -3.44 0.18 180)
 			(layer "F.SilkS")
 			(uuid "e7aead77-699f-40a2-afea-9ab3227d7386")
 			(effects
@@ -9630,7 +9630,7 @@
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U4"
-			(at 2.6325 -1.295 180)
+			(at -1.7875 2.29 -90)
 			(layer "F.SilkS")
 			(uuid "cb7edb60-0ae6-4eb5-90ea-2f75f9410faa")
 			(effects
@@ -12310,6 +12310,7 @@
 		(property "Reference" "C26"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "aede3ffe-32a9-47aa-8229-0b24836761c2")
 			(effects
 				(font
@@ -15160,7 +15161,7 @@
 		(descr "QFN, 20 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U3"
-			(at 0 -2.83 90)
+			(at -2.88 -0.03 180)
 			(layer "F.SilkS")
 			(uuid "922ff8e4-e62f-4a3f-b79b-095bb6cf1292")
 			(effects
@@ -19186,6 +19187,7 @@
 		(property "Reference" "C23"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5162e6e7-85e8-4685-bd51-e8ce5af6c9e4")
 			(effects
 				(font
@@ -19825,6 +19827,7 @@
 		(property "Reference" "C20"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c8aa6ce4-f5bf-4445-b1ff-6ce136a8777c")
 			(effects
 				(font
@@ -21734,7 +21737,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 2.84 -0.06 90)
+			(at -2.82 -0.02 90)
 			(layer "B.SilkS")
 			(uuid "48897277-b664-4e03-a38d-5e64c47e9b2f")
 			(effects
