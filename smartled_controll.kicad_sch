@@ -5761,6 +5761,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -17.78 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at -12.7 -5.08 0)
 					(length 2.54)
@@ -6383,6 +6401,12 @@
 		(uuid "eeca3e7d-5217-429a-b77f-d46e0995d0b8")
 	)
 	(junction
+		(at 95.25 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f53b7625-a54c-4145-8756-e2136fbd5626")
+	)
+	(junction
 		(at 254 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6747,6 +6771,16 @@
 			(type default)
 		)
 		(uuid "1e50fd36-036c-4326-a9a3-305beef9a45b")
+	)
+	(wire
+		(pts
+			(xy 95.25 106.68) (xy 97.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e511b29-2365-4118-bad4-058d55d03e93")
 	)
 	(wire
 		(pts
@@ -19484,6 +19518,9 @@
 		)
 		(pin "19"
 			(uuid "fd790940-1eb3-4dc6-9463-77e2c9baf010")
+		)
+		(pin "21"
+			(uuid "59d52948-5668-4418-b050-4b78e7cb353f")
 		)
 		(instances
 			(project ""
