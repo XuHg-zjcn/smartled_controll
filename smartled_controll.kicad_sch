@@ -201,6 +201,145 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -6911,6 +7050,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 101.6) (xy 82.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3393d42c-12d9-4f3d-ba07-f00e67aa0020")
+	)
+	(wire
+		(pts
 			(xy 172.72 71.12) (xy 172.72 72.39)
 		)
 		(stroke
@@ -8211,6 +8360,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 96.52) (xy 82.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add17a05-0893-49f0-98c2-35c8b5048308")
+	)
+	(wire
+		(pts
 			(xy 161.29 87.63) (xy 162.56 87.63)
 		)
 		(stroke
@@ -9459,16 +9618,6 @@
 		)
 		(uuid "6328ec43-e826-44e3-8ca6-b03102f7fcc1")
 	)
-	(label "MAX485_DI"
-		(at 109.22 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f80198f-63a8-4009-9f0e-f0e8189b622f")
-	)
 	(label "VIN+"
 		(at 22.86 34.29 180)
 		(effects
@@ -9489,6 +9638,16 @@
 		)
 		(uuid "7c579898-47c0-4e88-9b18-e6fe4ea8e59f")
 	)
+	(label "I2C_SDA"
+		(at 33.02 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d060777-194b-46fa-b1af-7d02f9c3c88d")
+	)
 	(label "PUSH"
 		(at 130.81 137.16 0)
 		(effects
@@ -9508,6 +9667,16 @@
 			(justify right bottom)
 		)
 		(uuid "85de5bc5-7a57-4828-9a4f-49e67e6806c1")
+	)
+	(label "I2C_SCL"
+		(at 33.02 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88bb812d-0ca4-4ea2-b700-9eda44681277")
 	)
 	(label "ADC_PD"
 		(at 81.28 88.9 180)
@@ -9549,6 +9718,16 @@
 		)
 		(uuid "93c3cbdc-b330-4a67-b80e-0dde6ec46986")
 	)
+	(label "MAX485_DI"
+		(at 81.28 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f928b03-dcb3-4363-adc4-b70e8b82640d")
+	)
 	(label "RGBLED_WS2812"
 		(at 50.8 102.87 180)
 		(effects
@@ -9589,6 +9768,16 @@
 		)
 		(uuid "c62264d4-6172-41c9-8bb6-f024f48604d8")
 	)
+	(label "I2C_SCL"
+		(at 109.22 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca3da6e9-5bb1-41a2-998e-95d3eef7fd00")
+	)
 	(label "ADC_T"
 		(at 171.45 137.16 0)
 		(effects
@@ -9628,6 +9817,16 @@
 			(justify left bottom)
 		)
 		(uuid "d8bddd01-0503-4476-9a90-f5cde3565e23")
+	)
+	(label "I2C_SDA"
+		(at 81.28 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db100a9a-aa1a-40cc-998f-cca87e8e5236")
 	)
 	(label "PWM1"
 		(at 25.4 137.16 180)
@@ -16493,6 +16692,76 @@
 			(project "smartled_controll"
 				(path "/b299fa7e-4ddc-4ca9-9929-510e6cf892c6"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 38.1 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b922dd12-1e30-49f0-88e2-678a3b2aa7a8")
+		(property "Reference" "J2"
+			(at 40.64 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 40.64 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76bcebb9-e78b-4951-a8e7-f4499e93b08b")
+		)
+		(pin "2"
+			(uuid "c1a2e9d6-a47f-499e-9a05-b73d27d7e1e3")
+		)
+		(instances
+			(project ""
+				(path "/b299fa7e-4ddc-4ca9-9929-510e6cf892c6"
+					(reference "J2")
 					(unit 1)
 				)
 			)
