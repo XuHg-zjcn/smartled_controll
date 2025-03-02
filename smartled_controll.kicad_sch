@@ -5323,7 +5323,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at 2.54 -10.16 90)
 					(length 2.54) hide
 					(name "NC"
 						(effects
