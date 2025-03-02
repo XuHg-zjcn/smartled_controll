@@ -16955,7 +16955,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.33 0)
+			(at -2.38 -1.84 0)
 			(layer "F.SilkS")
 			(uuid "1e19ad11-20f7-42c5-adea-47c64abe549d")
 			(effects
@@ -23252,6 +23252,54 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "13e0a965-be39-4d76-965a-b52bd19a71d7")
+	)
+	(gr_text "V+\nV-\nB\nA"
+		(at 190.46 78.86 0)
+		(layer "B.SilkS")
+		(uuid "ae4a3586-7b27-4134-aecf-7e9111a26142")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "Copyright (C) 2025  Xu Ruijun\nLicense under CERN-OHL-S v2\nhttps://github.com/XuHg-zjcn/smartled_controll"
+		(at 183.69 90.05 0)
+		(layer "B.SilkS")
+		(uuid "dd9c1132-7d8d-4968-b7a7-fac43525d15d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "V+\nV-"
+		(at 190.74 73.19 0)
+		(layer "F.SilkS")
+		(uuid "d817f2c6-f3c3-400f-8f3d-a54fa72032e2")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B\nA"
+		(at 191.25 87.46 0)
+		(layer "F.SilkS")
+		(uuid "e7b76cf3-0efe-4bb8-95f5-5a89edc8a6dc")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "I2C"
 		(at 148.63 85.85 90)
