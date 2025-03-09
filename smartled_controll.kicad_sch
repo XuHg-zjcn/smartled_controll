@@ -6101,6 +6101,12 @@
 		(uuid "544e2919-aa9b-4e66-8c7b-bbac71b0b864")
 	)
 	(junction
+		(at 254 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5823fd84-3720-49e3-ae46-bd694f721e67")
+	)
+	(junction
 		(at 203.2 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6231,6 +6237,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "969d3d34-a0f8-40f3-8908-ecf3de68f7bd")
+	)
+	(junction
+		(at 246.38 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96d3721d-e877-446b-a57d-f6c3d128b222")
 	)
 	(junction
 		(at 90.17 144.78)
@@ -6994,6 +7006,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 88.9) (xy 246.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2b9909-00a1-49ad-9ace-c09bfaebab2c")
+	)
+	(wire
+		(pts
 			(xy 48.26 144.78) (xy 48.26 147.32)
 		)
 		(stroke
@@ -7064,7 +7086,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 80.01) (xy 246.38 93.98)
+			(xy 246.38 80.01) (xy 246.38 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8271,6 +8293,16 @@
 			(type default)
 		)
 		(uuid "943ae0d7-1b74-40a0-a140-e28eb87b5e5d")
+	)
+	(wire
+		(pts
+			(xy 251.46 93.98) (xy 254 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94471703-bea4-4a83-8be1-f41546af4ea5")
 	)
 	(wire
 		(pts
@@ -10931,6 +10963,79 @@
 			(project ""
 				(path "/b299fa7e-4ddc-4ca9-9929-510e6cf892c6"
 					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_3Pin")
+		(at 251.46 88.9 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19d647c1-8a57-46cb-95dd-314f5f1c5325")
+		(property "Reference" "GD3"
+			(at 252.7301 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GDT_2Pin"
+			(at 250.1901 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 251.46 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gas Discharge Tube with 3 Pins"
+			(at 251.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9da70329-c0c6-4244-9e3a-8c807c0695b2")
+		)
+		(pin "3"
+			(uuid "d733a2eb-13ef-4b6a-96d3-be6c5a0f3d55")
+		)
+		(pin "2"
+			(uuid "ec7e2b4a-4192-454b-80b6-836e227b97bb")
+		)
+		(instances
+			(project "smartled_controll"
+				(path "/b299fa7e-4ddc-4ca9-9929-510e6cf892c6"
+					(reference "GD3")
 					(unit 1)
 				)
 			)
@@ -14759,7 +14864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 246.38 99.06 90)
 			(effects
 				(font
@@ -15468,7 +15573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 254 99.06 90)
 			(effects
 				(font
