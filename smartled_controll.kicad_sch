@@ -11743,7 +11743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "project_footprints:Fuse_2410_6125Metric"
 			(at 68.58 30.988 90)
 			(effects
 				(font
