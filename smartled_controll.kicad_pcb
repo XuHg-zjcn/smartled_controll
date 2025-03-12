@@ -9868,6 +9868,7 @@
 			(uuid "0661e9cc-2a92-4f35-bc3a-1c0b9222aed9")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13402,6 +13403,7 @@
 			(uuid "17da748e-42f0-44e3-8f27-16c5c308ef35")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14146,6 +14148,7 @@
 			(uuid "bf9d9bbb-a069-4318-89cf-38151c98dff7")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15749,6 +15752,7 @@
 			(uuid "9f6104af-54d6-4062-a208-0981e275c526")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
