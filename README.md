@@ -14,6 +14,15 @@
 
 其他元器件请通过KiCAD生成BOM表获取
 
+# 构建PCB工程
+为了减少git仓库占用空间，我在`git commit`提交前在KiCad中清除所有填充域(快捷键Ctrl+B)，您可以在打开后重新填充(快捷键B)
+在KiCad的Python控制台中，切换到该repo根目录运行下例命令
+````python
+import build
+build.all()
+```
+即可自动完成添加泪滴、重新填充、应用PCB背面信息字符串
+
 # 版权和许可证
 Copyright (C) 2025  徐瑞骏  
 本设计以CERN开放硬件许可证第二版强互惠授权(CERN Open Hardware Licence Version 2 - Strongly Reciprocal)，许可证文件位于`cern_ohl_s_v2.txt`  

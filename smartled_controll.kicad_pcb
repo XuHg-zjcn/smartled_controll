@@ -9674,7 +9674,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "GD3"
-			(at -3.86 0.07 90)
+			(at 2.92 -0.19 0)
 			(layer "F.SilkS")
 			(uuid "f182c2c9-53f3-44cd-8b3e-8998d6444a65")
 			(effects
@@ -24321,6 +24321,30 @@
 			(justify bottom mirror)
 		)
 	)
+	(gr_text "RS485"
+		(at 191.74 84.26 90)
+		(layer "B.SilkS")
+		(uuid "89657c2c-fae5-4fb0-ba2c-70cb269b57df")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "≤DC60V"
+		(at 191.74 73.03 90)
+		(layer "B.SilkS")
+		(uuid "939a6fb7-b540-4336-b1b7-eda1efd0867e")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify right mirror)
+		)
+	)
 	(gr_text "V+\nV-\nB\nA"
 		(at 190.46 78.86 0)
 		(layer "B.SilkS")
@@ -24331,6 +24355,18 @@
 				(thickness 0.15)
 			)
 			(justify left mirror)
+		)
+	)
+	(gr_text "https://github.com/XuHg-zjcn/smartled_controll"
+		(at 165.32 88.53 0)
+		(layer "B.SilkS")
+		(uuid "ca6dfe57-7158-4142-9d63-59b8c44a4f7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
 		)
 	)
 	(gr_text "1"
@@ -24346,8 +24382,8 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "Copyright (C) 2025  Xu Ruijun\nLicense under CERN-OHL-S v2\nhttps://github.com/XuHg-zjcn/smartled_controll"
-		(at 183.69 90.05 0)
+	(gr_text "Smart LED Driver and Controll\nyyyy.mm.dd vx.x-gxxxxxxx\n\nCopyright (C) 2025  徐瑞骏\nLicense under CERN-OHL-S v2"
+		(at 172.45 77.2 0)
 		(layer "B.SilkS")
 		(uuid "dd9c1132-7d8d-4968-b7a7-fac43525d15d")
 		(effects
@@ -24423,6 +24459,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "RS485"
+		(at 190.05 84.27 90)
+		(layer "F.SilkS")
+		(uuid "d4348ace-f34d-4dea-b149-0508558b3968")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
 	(gr_text "V+\nV-"
 		(at 190.74 73.19 0)
 		(layer "F.SilkS")
@@ -24458,6 +24506,18 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "≤DC60V"
+		(at 191.74 69.53 270)
+		(layer "F.SilkS")
+		(uuid "f851d6b5-0459-4955-98a3-cb73dea80eef")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify right)
 		)
 	)
 	(segment
