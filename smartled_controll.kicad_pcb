@@ -24284,16 +24284,111 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 132.4 52)
-		(end 193.6 95.7)
+	(gr_circle
+		(center 190.1 92.2)
+		(end 191.3 92.2)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "13e0a965-be39-4d76-965a-b52bd19a71d7")
+		(uuid "0145028e-ef12-48ba-944c-ddcfa252b176")
+	)
+	(gr_circle
+		(center 135.9 55.5)
+		(end 137.1 55.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "0207a606-caae-454a-9fdb-177f41bd9ff0")
+	)
+	(gr_line
+		(start 193.6 55)
+		(end 193.6 92.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1d4f5877-713c-445a-ae19-8b3920a434d1")
+	)
+	(gr_arc
+		(start 135.4 95.7)
+		(mid 133.27868 94.82132)
+		(end 132.4 92.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "403cf7f4-0143-4585-b6b9-58131760e000")
+	)
+	(gr_arc
+		(start 132.4 55)
+		(mid 133.27868 52.87868)
+		(end 135.4 52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7c5e0bbf-fba7-4c12-8545-e73b5fe3bffe")
+	)
+	(gr_arc
+		(start 190.6 52)
+		(mid 192.72132 52.87868)
+		(end 193.6 55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a200d6fc-8d02-4ec0-b14d-433a5f10c031")
+	)
+	(gr_arc
+		(start 193.6 92.7)
+		(mid 192.72132 94.82132)
+		(end 190.6 95.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a951492d-1f43-414f-9b88-668d1ca37791")
+	)
+	(gr_line
+		(start 132.4 92.7)
+		(end 132.4 55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eec2e924-8c6e-4e33-a4ce-a3554b0d124a")
+	)
+	(gr_line
+		(start 135.4 52)
+		(end 190.6 52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f178da4a-32de-4334-9a68-2394742ff9c8")
+	)
+	(gr_line
+		(start 190.6 95.7)
+		(end 135.4 95.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ff9d5f46-0f83-4820-a7b8-c87172c61e50")
 	)
 	(gr_text "4"
 		(at 148.91 56.28 -0)
