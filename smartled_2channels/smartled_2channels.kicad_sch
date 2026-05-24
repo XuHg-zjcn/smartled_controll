@@ -6518,16 +6518,16 @@
 		(uuid "246c2001-723f-4967-8358-9784c540b0c6")
 	)
 	(junction
+		(at 139.7 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27e196d5-9084-413c-8282-bf5ae75b6728")
+	)
+	(junction
 		(at 203.2 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29c30927-ec4f-49d9-9965-dd0c78265397")
-	)
-	(junction
-		(at 139.7 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a04a8a4-14fe-4a61-a588-9000564abef3")
 	)
 	(junction
 		(at 172.72 102.87)
@@ -13201,7 +13201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 205.74 137.16 90)
 			(effects
 				(font
@@ -13405,7 +13405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.392 147.32 90)
 			(effects
 				(font
@@ -13679,7 +13679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 66.04 44.45 0)
 			(effects
 				(font
@@ -14619,8 +14619,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7d70f57d-0d38-4956-b0c2-2310a932202e")
 		(property "Reference" "J1"
@@ -15261,7 +15261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:Fuse_2410_6125Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 68.58 30.988 90)
 			(effects
 				(font
@@ -15364,6 +15364,72 @@
 			(project "smartled_2channels"
 				(path "/03135fe0-800a-4910-99f5-abc1a6d2d96f"
 					(reference "#PWR24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 139.7 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9559521b-4795-4233-9db4-88fafe4c1a62")
+		(property "Reference" "#PWR4"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "673eadcd-5f25-4333-8033-0d15e6c81fd9")
+		)
+		(instances
+			(project "smartled_2channels"
+				(path "/03135fe0-800a-4910-99f5-abc1a6d2d96f"
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -17813,72 +17879,6 @@
 			(project "smartled_2channels"
 				(path "/03135fe0-800a-4910-99f5-abc1a6d2d96f"
 					(reference "#PWR41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 139.7 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e653eee7-2f71-4fba-bd35-a7e58ab86215")
-		(property "Reference" "#PWR29"
-			(at 139.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 139.7 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 139.7 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d361bdfc-7cea-4a5c-a570-03a41086fc1a")
-		)
-		(instances
-			(project "smartled_2channels"
-				(path "/03135fe0-800a-4910-99f5-abc1a6d2d96f"
-					(reference "#PWR29")
 					(unit 1)
 				)
 			)
