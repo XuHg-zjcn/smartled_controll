@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "project_footprints")(type "KiCad")(uri "/home/xrj/elec/kicad/smartled_controll/project_footprints.pretty")(options "")(descr ""))
+)

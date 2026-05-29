@@ -15533,7 +15533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project_footprints:2Pads_1.0x1.5mm_P2.0mm_mpsign"
+		(property "Footprint" "project_footprints:2Pads_1.5x2.7mm_Tshape_mpsign"
 			(at 104.14 133.35 0)
 			(effects
 				(font
@@ -18121,7 +18121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project_footprints:2Pads_1.0x1.5mm_P2.0mm_mpsign"
+		(property "Footprint" "project_footprints:2Pads_1.5x2.7mm_Tshape_mpsign"
 			(at 62.23 133.35 0)
 			(effects
 				(font
