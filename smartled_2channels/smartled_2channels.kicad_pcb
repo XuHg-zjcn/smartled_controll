@@ -2803,7 +2803,7 @@
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
 		(property "Reference" "D10"
-			(at 0 1.4 0)
+			(at -2.8496 -0.0058 0)
 			(layer "F.SilkS")
 			(uuid "dbffcd88-8a6c-4cd8-b86d-43c7c8247a8d")
 			(effects
@@ -3409,7 +3409,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at -3.2325 -0.025 0)
+			(at -0.33 -1.77 0)
 			(layer "F.SilkS")
 			(uuid "6de16df3-48e4-4f1b-9057-f0425ee36c55")
 			(effects
@@ -7424,7 +7424,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "MK1"
-			(at 0 -1.85 90)
+			(at -2.4 0.71 180)
 			(layer "F.SilkS")
 			(uuid "96229c91-d5a7-4cfa-9c02-7139d4d4d37a")
 			(effects
@@ -10001,7 +10001,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D7"
-			(at 0 1.4732 90)
+			(at 1.9272 0.0548 180)
 			(layer "F.SilkS")
 			(uuid "1e82de03-2349-4638-a360-05d17b07042b")
 			(effects
@@ -10500,8 +10500,9 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R22"
-			(at 0 -1.43 -90)
+			(at 2.2298 0.0076 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1e1bdce6-835f-4afe-bc24-ddc5ab42e71f")
 			(effects
 				(font
@@ -13993,7 +13994,7 @@
 		(descr "Inductor, APV, APH0630, 6.8x6.6x2.8mm, (http://en.apvind.com/public/upload/20240408/996aafa961154ed753e4983e7eb80fa7.pdf), generated with kicad-footprint-generator gen_inductor.py")
 		(tags "Inductor molded power shielded")
 		(property "Reference" "L3"
-			(at -6.725 -1.2 0)
+			(at -4.87 -0.135 -90)
 			(layer "F.SilkS")
 			(uuid "ea430798-d65c-49e9-8613-31d99eeb863a")
 			(effects
@@ -15185,7 +15186,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at -0.005 1.34 0)
+			(at -2.05 2.55 0)
 			(layer "B.SilkS")
 			(uuid "76c3022c-bda8-4134-bfaf-a8874c39de79")
 			(effects
@@ -17154,7 +17155,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0.075 -1.4 0)
+			(at -1.96 -2.83 0)
 			(layer "B.SilkS")
 			(uuid "d95d074c-de33-4fee-a401-a70250e53ce1")
 			(effects
@@ -19519,6 +19520,7 @@
 		(property "Reference" "R5"
 			(at -0.01 1.26 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "5c2b2bb9-7d55-4ae0-96f3-187036e0545f")
 			(effects
 				(font
@@ -21126,6 +21128,30 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "acf30c55-670f-4984-a410-108633a8e1cf")
+	)
+	(gr_text "https://github.com/XuHg-zjcn/smartled_controll"
+		(at 139.49 100.9 0)
+		(layer "B.SilkS")
+		(uuid "4a106709-eb16-4d7e-9372-7539c8e12634")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "LED Strip 2 Channel Driver\nyyyy.mm.dd vx.x-gxxxxxxx\n\nCopyright (C) 2026  徐瑞骏\nLicense under CERN-OHL-S v2"
+		(at 128.54 97.11 0)
+		(layer "B.SilkS")
+		(uuid "4c889c94-808e-435a-a5d6-6a1293b64a3a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "LED1"
 		(at 108.88 98.91 90)
@@ -23890,20 +23916,20 @@
 		(uuid "ea47e300-4c53-4aae-ae97-a996d7531256")
 	)
 	(segment
-		(start 124.15 95.7125)
-		(end 123.8625 96)
+		(start 124.15 95.4375)
+		(end 124.6625 95.95)
 		(width 1)
 		(layer "F.Cu")
 		(net 36)
-		(uuid "4c631bd3-adb7-4b47-ab74-286c30ad1970")
+		(uuid "148c36cd-57e3-43ec-9491-cfc7f3f19676")
 	)
 	(segment
 		(start 124.15 92.735)
-		(end 124.15 95.7125)
+		(end 124.15 95.4375)
 		(width 1)
 		(layer "F.Cu")
 		(net 36)
-		(uuid "8bb596f6-43d5-4901-afc0-677bb19a7014")
+		(uuid "fe8cd0fd-9be1-4f2d-8946-2528d3ad1bf7")
 	)
 	(segment
 		(start 140 91.85)
@@ -25020,28 +25046,28 @@
 	)
 	(group "LED驱动1"
 		(uuid "ee916e62-4cd3-47bb-b523-739f3242b3a9")
-		(members "097316fb-18b5-480e-862f-6f3a3067adb6" "178e6880-8828-4553-bee4-e2de0b5de154"
-			"17a861f3-fc8d-4d16-9c42-8d2c828430de" "1b08897a-7ea3-4d59-91b4-9b10cab0b1a9"
-			"2033e229-ce9b-4350-acb4-26b53c010734" "20926de3-6061-49c6-a51c-7a7e43ec4d50"
-			"2152c6b9-174d-424b-a63c-def9bc6348bc" "2a837293-223a-42a8-b839-e46fae8bb605"
-			"2c3bac7e-ebed-4ce1-8919-bbaeaaef3147" "2dabf7f8-eef8-4994-8a27-e8a169fa6792"
-			"2e25fb8c-2a1e-4550-b22c-549ad53cfbc1" "32ae1743-d038-41f1-94bd-7f9fbec4ed90"
-			"37747a8a-c22f-403b-aec3-d528845dcaa8" "479d0d2b-0dce-436a-b1ad-8536b169c966"
-			"48e1d37f-9f97-467d-ba60-32f792c0eb09" "4bd7aa62-10d7-493a-9aaa-15b3a4a61b62"
-			"4c631bd3-adb7-4b47-ab74-286c30ad1970" "50ea2e16-1790-43fd-bae8-e2b482237c03"
+		(members "097316fb-18b5-480e-862f-6f3a3067adb6" "148c36cd-57e3-43ec-9491-cfc7f3f19676"
+			"178e6880-8828-4553-bee4-e2de0b5de154" "17a861f3-fc8d-4d16-9c42-8d2c828430de"
+			"1b08897a-7ea3-4d59-91b4-9b10cab0b1a9" "2033e229-ce9b-4350-acb4-26b53c010734"
+			"20926de3-6061-49c6-a51c-7a7e43ec4d50" "2152c6b9-174d-424b-a63c-def9bc6348bc"
+			"2a837293-223a-42a8-b839-e46fae8bb605" "2c3bac7e-ebed-4ce1-8919-bbaeaaef3147"
+			"2dabf7f8-eef8-4994-8a27-e8a169fa6792" "2e25fb8c-2a1e-4550-b22c-549ad53cfbc1"
+			"32ae1743-d038-41f1-94bd-7f9fbec4ed90" "37747a8a-c22f-403b-aec3-d528845dcaa8"
+			"479d0d2b-0dce-436a-b1ad-8536b169c966" "48e1d37f-9f97-467d-ba60-32f792c0eb09"
+			"4bd7aa62-10d7-493a-9aaa-15b3a4a61b62" "50ea2e16-1790-43fd-bae8-e2b482237c03"
 			"5f62f44f-4703-41c8-b04c-5f74c7fc2fa3" "64d6868a-f9e5-42c9-b998-cb720dfef56b"
 			"65e27c9f-d16f-4031-9ffd-fc2fd826a6a9" "753afaa1-0ebb-4073-b54f-fe7017cab049"
-			"885f5cca-6205-41b3-8391-836988e3b475" "8bb596f6-43d5-4901-afc0-677bb19a7014"
-			"92ab89e0-2686-4027-b9c7-53db87f32243" "9ab00480-09d2-4213-bb03-b5a6c376febe"
-			"9ed58afb-b925-41c1-a761-3c7b812ba96b" "a7faf8e1-2291-459a-92ee-ab987d4345db"
-			"b2a820eb-b783-4e1f-b83a-a7a0dae965ab" "b6b19472-3ec6-4e39-a0d9-930934425199"
-			"c131a8dc-823a-4ff3-ac65-e482af8cea7b" "c5b485b0-9534-4048-8b82-fd68a3d97f9b"
-			"c7fab91c-4a26-4925-a85d-e27f202add17" "c9de9c0f-0f86-485d-95b1-522b2afedfa7"
-			"cbaaa079-b1ac-4352-920c-a6d986f916e2" "cf28c322-ef8d-43d5-b11a-afce221be219"
-			"d046ca46-3bda-4053-bcc6-fac1c8a76122" "d375a6a1-f7a1-4595-9121-b7cf7fc391a4"
-			"dfee9b27-3236-48ec-b161-496387d06598" "e252ca6d-3f8a-428d-9d2a-bdb01b820655"
-			"ea9a6746-549a-4075-92a4-326294cc27fc" "ecc175c0-710b-4301-a438-8fe1630de94f"
-			"f754da91-fb3b-4141-b952-57b58db5bc32"
+			"885f5cca-6205-41b3-8391-836988e3b475" "92ab89e0-2686-4027-b9c7-53db87f32243"
+			"9ab00480-09d2-4213-bb03-b5a6c376febe" "9ed58afb-b925-41c1-a761-3c7b812ba96b"
+			"a7faf8e1-2291-459a-92ee-ab987d4345db" "b2a820eb-b783-4e1f-b83a-a7a0dae965ab"
+			"b6b19472-3ec6-4e39-a0d9-930934425199" "c131a8dc-823a-4ff3-ac65-e482af8cea7b"
+			"c5b485b0-9534-4048-8b82-fd68a3d97f9b" "c7fab91c-4a26-4925-a85d-e27f202add17"
+			"c9de9c0f-0f86-485d-95b1-522b2afedfa7" "cbaaa079-b1ac-4352-920c-a6d986f916e2"
+			"cf28c322-ef8d-43d5-b11a-afce221be219" "d046ca46-3bda-4053-bcc6-fac1c8a76122"
+			"d375a6a1-f7a1-4595-9121-b7cf7fc391a4" "dfee9b27-3236-48ec-b161-496387d06598"
+			"e252ca6d-3f8a-428d-9d2a-bdb01b820655" "ea9a6746-549a-4075-92a4-326294cc27fc"
+			"ecc175c0-710b-4301-a438-8fe1630de94f" "f754da91-fb3b-4141-b952-57b58db5bc32"
+			"fe8cd0fd-9be1-4f2d-8946-2528d3ad1bf7"
 		)
 	)
 	(group "LED驱动2"
