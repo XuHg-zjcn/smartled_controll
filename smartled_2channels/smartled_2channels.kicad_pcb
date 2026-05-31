@@ -2467,7 +2467,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d3eacb4e-0580-4cbf-b718-9027a174680d")
+			(uuid "73c8f744-f339-4542-8b95-4a64c195710c")
 			(effects
 				(font
 					(size 1 1)
@@ -2479,7 +2479,7 @@
 			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "d1417325-4495-4577-8948-8654930ed33d")
+			(uuid "8b731a38-1c90-4bce-82ca-e27a52e1c91e")
 			(effects
 				(font
 					(size 1 1)
@@ -2492,7 +2492,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bb54dcff-5b56-45b9-b22b-7c7872f08a4b")
+			(uuid "7dc6baeb-b232-4956-90ad-16939fd29288")
 			(effects
 				(font
 					(size 1 1)
@@ -2505,7 +2505,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b76eb96-0493-4bba-98a5-816c2d321af3")
+			(uuid "29713295-0f9e-4d5c-8be7-aea121b23a95")
 			(effects
 				(font
 					(size 1 1)
@@ -2518,7 +2518,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39e367db-8d34-48d7-a295-66ab89a97b13")
+			(uuid "f80a5cfe-b36d-4816-ad50-71741431ac88")
 			(effects
 				(font
 					(size 1 1)
@@ -2539,7 +2539,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "19d41a01-cae4-42b4-914d-7d933105f0f7")
+			(uuid "f14b90f1-02b6-43ed-832b-3e5ad397a59d")
 		)
 		(fp_line
 			(start -4.7 -2.5)
@@ -2549,7 +2549,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "157bbda2-c91e-4175-bcb1-6a645023d7b4")
+			(uuid "139e032a-88e5-4dd8-82f9-85cdb769d325")
 		)
 		(fp_line
 			(start 2.3 -1.6)
@@ -2559,7 +2559,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "4ea4385c-f709-4606-8338-d0dc56a10647")
+			(uuid "6f40931f-5310-4a02-8e0f-e0868e9dbe21")
 		)
 		(fp_line
 			(start -2.3 -1.6)
@@ -2569,7 +2569,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "898951f5-466f-436a-aa39-6e2931a28047")
+			(uuid "272b3eaa-e86f-4c9b-9919-c8fc420b4b44")
 		)
 		(fp_line
 			(start 5.9 0.4)
@@ -2579,7 +2579,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "ee84b7c9-150e-4537-8790-2c479a5543cd")
+			(uuid "15279a10-bb56-446d-a18d-1610edb7a389")
 		)
 		(fp_line
 			(start 2.3 0.4)
@@ -2589,7 +2589,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "6526361f-f5a5-4548-ad53-ca8ec3016cc7")
+			(uuid "185de39f-98a5-4e87-ad63-75ea8cd7901c")
 		)
 		(fp_line
 			(start -2.3 1.6)
@@ -2599,7 +2599,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "9926aefe-96b2-45e4-b09f-5f9ee67286ba")
+			(uuid "fce48bd4-87f0-47ca-9bae-973017127ffe")
 		)
 		(fp_line
 			(start -4.7 1.6)
@@ -2609,13 +2609,39 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "99b7ced6-3987-461e-a788-6f5730b225d2")
+			(uuid "94d946fc-f53d-4284-bccf-d3e3e63ca70e")
+		)
+		(fp_text user "+"
+			(at 4.25 -1.5 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "456d7ac7-0846-4f2c-b4a1-65e73d639f6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom mirror)
+			)
+		)
+		(fp_text user "-"
+			(at -3.5 -1.5 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "ecd38d3c-1e5e-43d2-8bde-d79e7cd8a2f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom mirror)
+			)
 		)
 		(fp_text user "-"
 			(at -3.5 -1.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "08b74f5e-bfd2-41c0-bae2-158eeaee9e3f")
+			(uuid "6264165f-48ef-48a5-b4be-7af179d7cda6")
 			(effects
 				(font
 					(size 1 1)
@@ -2628,7 +2654,7 @@
 			(at 4.25 -1.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "aae9e800-a564-45ee-983d-c78d453d4a43")
+			(uuid "648ff72d-8ec8-456b-b9dd-2e34834088c8")
 			(effects
 				(font
 					(size 1 1)
@@ -2641,7 +2667,7 @@
 			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "b3e15bee-a664-46c9-9b15-b5865aca2743")
+			(uuid "8d39bb51-8c02-460e-a9a9-8a7c39e3a4b5")
 			(effects
 				(font
 					(size 1 1)
@@ -2649,27 +2675,41 @@
 				)
 			)
 		)
-		(pad "1" smd roundrect
+		(pad "1" thru_hole roundrect
 			(at -3.5 0 90)
 			(size 1.5 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(drill oval 0.5 1)
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
+			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net 8 "Net-(D12-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ec2436fc-e7a9-4510-9f1e-ef5eb3f410f6")
+			(uuid "530beeb0-46a7-40ff-b289-9ea0e1ce28f6")
 		)
-		(pad "2" smd roundrect
+		(pad "2" thru_hole roundrect
 			(at 4.25 -0.75 90)
 			(size 2.7 1.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(drill oval 1 0.5)
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
+			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net 7 "VINP")
 			(pinfunction "A")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "449846eb-3d0c-457b-ae55-e2fdbc2c895a")
+			(uuid "65bad7b8-d559-472f-baa6-e0411d7db388")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
@@ -5527,7 +5567,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "420e382a-aaeb-4e79-937e-417675aaf733")
+			(uuid "8bd4ffc2-16c2-4b52-9057-d4e10018b884")
 			(effects
 				(font
 					(size 1 1)
@@ -5539,7 +5579,7 @@
 			(at 0 1 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6ae8ac3e-70fc-49bc-bcc0-06bada2b417f")
+			(uuid "e97ad0a9-7e9b-43ba-9df6-bc537c3224b9")
 			(effects
 				(font
 					(size 1 1)
@@ -5552,7 +5592,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7cf1121-0c8a-4094-ab1d-8996c7ecb378")
+			(uuid "c33b18c2-ead0-48bf-844f-3c6fe67a2095")
 			(effects
 				(font
 					(size 1 1)
@@ -5565,7 +5605,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb0d3d0b-a06c-48a9-ac3d-6edcfa682f90")
+			(uuid "9396ddff-9206-4bce-bd34-eb1d953fde91")
 			(effects
 				(font
 					(size 1 1)
@@ -5578,7 +5618,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "641ab27f-16e3-483a-bb56-1f52026cf5e3")
+			(uuid "1797e4ce-35fe-4285-8a29-67332b1365d2")
 			(effects
 				(font
 					(size 1 1)
@@ -5599,7 +5639,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "07d5db18-232e-48c9-ac64-6b7bb6306409")
+			(uuid "426db6c8-0908-4e87-b997-5baf35d37f2e")
 		)
 		(fp_line
 			(start -2.3 1.6)
@@ -5609,7 +5649,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "f14ca46c-4834-4bcf-a33c-f84234bc45ee")
+			(uuid "70ce5439-2c38-4fc6-a8c2-8549483db05c")
 		)
 		(fp_line
 			(start 2.3 0.4)
@@ -5619,7 +5659,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "8fe23077-8251-462a-bfd9-629dd824399f")
+			(uuid "734eec04-9b66-4c01-a403-da9b92b937dc")
 		)
 		(fp_line
 			(start 5.9 0.4)
@@ -5629,7 +5669,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "0a02faa7-86e8-44d5-96f1-3db34726e8f2")
+			(uuid "6c4ddfb4-6ad9-47f2-8564-4dda60d33278")
 		)
 		(fp_line
 			(start -2.3 -1.6)
@@ -5639,7 +5679,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "31fa1077-570d-491c-8889-d133996de461")
+			(uuid "5bd5ae84-1686-4af3-b5c0-14ad37e02d67")
 		)
 		(fp_line
 			(start 2.3 -1.6)
@@ -5649,7 +5689,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "67505ee0-bfc0-4ff1-9c46-c51dd428d2b9")
+			(uuid "d41f5c1f-cd5a-4bc8-a6af-6a4807cd7a65")
 		)
 		(fp_line
 			(start -4.7 -2.5)
@@ -5659,7 +5699,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "64d49e37-18b4-4c6d-b99f-9d4f741d1cf6")
+			(uuid "f7f30f35-3f08-4ee2-aa62-15b303363380")
 		)
 		(fp_line
 			(start 5.9 -2.5)
@@ -5669,13 +5709,39 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "bc511c6c-30a2-4c97-af5a-ae204ae5d415")
+			(uuid "c6bf479e-e621-4989-9fd0-cbc567731b18")
 		)
 		(fp_text user "+"
 			(at 4.25 -1.5 -90)
 			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "21f4d320-d011-4b12-a38c-1dc021f0f84d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom mirror)
+			)
+		)
+		(fp_text user "-"
+			(at -3.5 -1.5 -90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "8f5c3f96-2264-4dd6-a217-1c0202443b1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom mirror)
+			)
+		)
+		(fp_text user "-"
+			(at -3.5 -1.5 -90)
+			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "d7d3083d-ffd4-45cf-aaff-376a0e6a11f3")
+			(uuid "152994f0-2078-46e2-b4d9-8137397b2ea2")
 			(effects
 				(font
 					(size 1 1)
@@ -5684,11 +5750,11 @@
 				(justify bottom)
 			)
 		)
-		(fp_text user "-"
-			(at -3.5 -1.5 -90)
+		(fp_text user "+"
+			(at 4.25 -1.5 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "dd8edadf-3c09-44cb-bcc4-580a2669efca")
+			(uuid "bc21dbee-b05e-4a46-860f-b69df57caf28")
 			(effects
 				(font
 					(size 1 1)
@@ -5701,7 +5767,7 @@
 			(at 0 2.5 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "fbe2a97e-85ec-4384-9d8f-b7f3267c3074")
+			(uuid "8b7378ee-6624-48cf-b246-abe793be3623")
 			(effects
 				(font
 					(size 1 1)
@@ -5709,27 +5775,41 @@
 				)
 			)
 		)
-		(pad "1" smd roundrect
+		(pad "1" thru_hole roundrect
 			(at -3.5 0 270)
 			(size 1.5 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(drill oval 0.5 1)
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
+			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net 15 "Net-(D13-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "63451374-d79e-4efa-9b1e-0b2fd4ba80ff")
+			(uuid "1e413edc-fac6-48fe-9728-0f977032186e")
 		)
-		(pad "2" smd roundrect
+		(pad "2" thru_hole roundrect
 			(at 4.25 -0.75 270)
 			(size 2.7 1.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(drill oval 1 0.5)
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
+			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net 7 "VINP")
 			(pinfunction "A")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "f0bed860-8d80-4651-8e64-e14b93bb65d4")
+			(uuid "9fe91983-bbba-4795-97f6-dbd16cc549c7")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
@@ -21385,6 +21465,19 @@
 		(layer "Edge.Cuts")
 		(uuid "acf30c55-670f-4984-a410-108633a8e1cf")
 	)
+	(gr_text "LED1"
+		(at 108.9 97.13 90)
+		(layer "B.SilkS")
+		(uuid "0549cfdc-0816-46e3-bf4e-ab75e1afa05c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(gr_text "-S+"
 		(at 172.47 89.65 0)
 		(layer "B.SilkS")
@@ -21399,7 +21492,7 @@
 		)
 	)
 	(gr_text "https://github.com/XuHg-zjcn/smartled_controll"
-		(at 139.49 100.9 0)
+		(at 143.6 101.06 0)
 		(layer "B.SilkS")
 		(uuid "4a106709-eb16-4d7e-9372-7539c8e12634")
 		(effects
@@ -21420,6 +21513,19 @@
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "LED2"
+		(at 188.92 92.39 270)
+		(layer "B.SilkS")
+		(uuid "968096c8-2885-471c-b110-edebba27516b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "V-"
@@ -21461,7 +21567,7 @@
 		)
 	)
 	(gr_text "LED1"
-		(at 108.88 98.91 90)
+		(at 108.9 97.13 90)
 		(layer "F.SilkS")
 		(uuid "1b16b4bd-365c-4c86-bfb2-5c9d03e58331")
 		(effects
@@ -21470,7 +21576,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "V+"
@@ -21536,7 +21642,7 @@
 		)
 	)
 	(gr_text "LED2"
-		(at 188.88 90.54 270)
+		(at 188.92 92.39 270)
 		(layer "F.SilkS")
 		(uuid "b08814dc-f48f-4863-ba1b-87fefa40b3fa")
 		(effects
@@ -21545,7 +21651,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "ARD"
@@ -25597,6 +25703,118 @@
 			)
 		)
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "3497d709-2491-46d1-967d-103dcef44fcf")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 110.91 91.03) (xy 107.41 91.03) (xy 107.4 94.73) (xy 110.9 94.74)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "8738ee78-8729-4fa2-9883-0f97829834ba")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 185.55 86.1) (xy 185.55 90.17) (xy 190.39 90.2) (xy 190.4 86.11)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "a43d38d8-b34d-422a-a766-bbb52be6ad45")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 107.39 99.37) (xy 107.4 102.1) (xy 112.24 102.11) (xy 112.24 99.38)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "ea757953-b0a7-48bb-aa9a-da1c96b09c24")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 190.41 94.84) (xy 186.89 94.84) (xy 186.88 98.54) (xy 190.4 98.55)
+			)
+		)
+	)
 	(group "麦克风电路"
 		(uuid "372587b5-3164-456d-9171-ddb74e3f66cd")
 		(members "037f6452-6f87-4711-b3cc-737a60ae16fc" "10ebd8b5-2b9b-428c-81c3-b290cef82863"
@@ -25639,53 +25857,6 @@
 			"1a09c04e-4fa0-4afd-9060-7e2c33c02480" "37460a44-1e4c-4a27-8c82-c4bf60524735"
 			"3b4a8d6d-ebfa-4e91-9565-92e452ef29ad" "5438a20f-fccc-4782-a981-fc2a6b1fe9be"
 			"82110309-35ff-41e7-8186-b03fb51a4ec5" "da60e237-039c-45af-ba74-5c1811a2f272"
-		)
-	)
-	(group "LED驱动1"
-		(uuid "ee916e62-4cd3-47bb-b523-739f3242b3a9")
-		(members "097316fb-18b5-480e-862f-6f3a3067adb6" "148c36cd-57e3-43ec-9491-cfc7f3f19676"
-			"178e6880-8828-4553-bee4-e2de0b5de154" "17a861f3-fc8d-4d16-9c42-8d2c828430de"
-			"1b08897a-7ea3-4d59-91b4-9b10cab0b1a9" "2033e229-ce9b-4350-acb4-26b53c010734"
-			"20926de3-6061-49c6-a51c-7a7e43ec4d50" "2152c6b9-174d-424b-a63c-def9bc6348bc"
-			"2a837293-223a-42a8-b839-e46fae8bb605" "2c3bac7e-ebed-4ce1-8919-bbaeaaef3147"
-			"2dabf7f8-eef8-4994-8a27-e8a169fa6792" "2e25fb8c-2a1e-4550-b22c-549ad53cfbc1"
-			"32ae1743-d038-41f1-94bd-7f9fbec4ed90" "37747a8a-c22f-403b-aec3-d528845dcaa8"
-			"479d0d2b-0dce-436a-b1ad-8536b169c966" "48e1d37f-9f97-467d-ba60-32f792c0eb09"
-			"4bd7aa62-10d7-493a-9aaa-15b3a4a61b62" "50ea2e16-1790-43fd-bae8-e2b482237c03"
-			"5f62f44f-4703-41c8-b04c-5f74c7fc2fa3" "64d6868a-f9e5-42c9-b998-cb720dfef56b"
-			"65e27c9f-d16f-4031-9ffd-fc2fd826a6a9" "753afaa1-0ebb-4073-b54f-fe7017cab049"
-			"885f5cca-6205-41b3-8391-836988e3b475" "92ab89e0-2686-4027-b9c7-53db87f32243"
-			"9ed58afb-b925-41c1-a761-3c7b812ba96b" "a7faf8e1-2291-459a-92ee-ab987d4345db"
-			"b2a820eb-b783-4e1f-b83a-a7a0dae965ab" "b6b19472-3ec6-4e39-a0d9-930934425199"
-			"c131a8dc-823a-4ff3-ac65-e482af8cea7b" "c5b485b0-9534-4048-8b82-fd68a3d97f9b"
-			"c7fab91c-4a26-4925-a85d-e27f202add17" "c9de9c0f-0f86-485d-95b1-522b2afedfa7"
-			"cbaaa079-b1ac-4352-920c-a6d986f916e2" "cf28c322-ef8d-43d5-b11a-afce221be219"
-			"d046ca46-3bda-4053-bcc6-fac1c8a76122" "d375a6a1-f7a1-4595-9121-b7cf7fc391a4"
-			"dfee9b27-3236-48ec-b161-496387d06598" "e252ca6d-3f8a-428d-9d2a-bdb01b820655"
-			"ea9a6746-549a-4075-92a4-326294cc27fc" "ecc175c0-710b-4301-a438-8fe1630de94f"
-			"fe8cd0fd-9be1-4f2d-8946-2528d3ad1bf7"
-		)
-	)
-	(group "LED驱动2"
-		(uuid "f437b8fe-f778-40a6-9e69-9349b0e02eb8")
-		(members "005b45c2-5ea2-4e0b-aee6-50232a8ab184" "0bbe6fc5-a350-4792-8da4-a8a31278f0a3"
-			"0f97ea86-de66-4bba-b97c-9d635b12c5b3" "1280d006-701a-441a-8fdf-cbd7a57dec46"
-			"1ced776a-fe9f-4807-88bf-f0d6727850b3" "25a1f4ca-6500-4611-b3a3-59ea673b4858"
-			"26d5f874-eb66-4966-bd17-ea64d40f30e6" "2ac4c2d5-6eda-42d4-8a08-fb3d84110c1e"
-			"329507db-0110-4f4c-a287-b5e210ede25e" "33142afd-f62a-41b5-91aa-b128cecec052"
-			"335de58a-b32a-4846-8020-9221dc0a1f94" "33cd6897-640f-4607-8486-99fdc1f2a1fb"
-			"34f557e4-06d5-4633-a32d-ee80ed488d18" "3c9a66d8-7e1f-41fe-9cf8-062af468ba43"
-			"3dcee007-a953-4047-b139-c90e70b32f2c" "4df9cbba-8301-494d-9cb4-0c4d782ca710"
-			"534c4387-fa94-4c27-aa60-1f5a0ac35d30" "5376c480-0d2e-4baf-9999-dbcd24f2806c"
-			"63df6b1e-b0ea-4dfa-bdbf-9d284d42eebe" "75d9c276-231f-4123-a6d2-ac78ab6f63fe"
-			"851d2e20-44d9-481c-ba65-ef4c09bf0748" "87230fd5-6473-4125-80ad-4fa923b5b98b"
-			"967ed928-2afa-4652-82b6-6ace0445db2c" "9c9f5d86-7c47-484f-abaa-c01f15b45133"
-			"9fc75287-d598-4420-b374-8129653267e0" "b189e7e7-5739-4240-a945-7a6c3875f5bf"
-			"b5bed891-8735-482a-a646-827b0cc8f186" "c107401c-1e01-41f4-a233-0e72cfe400d0"
-			"c771afb1-d7a6-4128-a7a9-6d3963725425" "cb298181-9961-487e-bec0-86a880725c3c"
-			"d2ee8d33-1a0a-49ff-b804-9039176e70c1" "d9718a42-881d-4341-83b0-7a5394e92c4e"
-			"e74b9fbe-7afb-419f-8962-3e87b4363741" "e893c293-ef66-4174-a6da-c88039a2a1ac"
-			"e9a01306-a6fa-44e2-a119-1550557db027" "fc07321b-fc6a-4869-9866-791ce4ba7aa9"
 		)
 	)
 	(group "5V DCDC电路"
@@ -25740,6 +25911,57 @@
 			"b74a9e89-0d18-4003-81c5-344bc5b176e1" "ccec922c-1e7b-49b0-bf90-b50f84dc6473"
 			"d9be3b13-1aeb-4e94-9bf7-876f59934301" "e50fc9b1-1855-499f-aca9-9ae761399aee"
 			"e9d5f229-627c-4b5a-8eb5-e1c4d2233d57"
+		)
+	)
+	(group "LED驱动1"
+		(uuid "ee916e62-4cd3-47bb-b523-739f3242b3a9")
+		(members "0549cfdc-0816-46e3-bf4e-ab75e1afa05c" "097316fb-18b5-480e-862f-6f3a3067adb6"
+			"148c36cd-57e3-43ec-9491-cfc7f3f19676" "178e6880-8828-4553-bee4-e2de0b5de154"
+			"17a861f3-fc8d-4d16-9c42-8d2c828430de" "1b08897a-7ea3-4d59-91b4-9b10cab0b1a9"
+			"1b16b4bd-365c-4c86-bfb2-5c9d03e58331" "2033e229-ce9b-4350-acb4-26b53c010734"
+			"20926de3-6061-49c6-a51c-7a7e43ec4d50" "2152c6b9-174d-424b-a63c-def9bc6348bc"
+			"2a837293-223a-42a8-b839-e46fae8bb605" "2c3bac7e-ebed-4ce1-8919-bbaeaaef3147"
+			"2dabf7f8-eef8-4994-8a27-e8a169fa6792" "2e25fb8c-2a1e-4550-b22c-549ad53cfbc1"
+			"32ae1743-d038-41f1-94bd-7f9fbec4ed90" "3497d709-2491-46d1-967d-103dcef44fcf"
+			"37747a8a-c22f-403b-aec3-d528845dcaa8" "479d0d2b-0dce-436a-b1ad-8536b169c966"
+			"48e1d37f-9f97-467d-ba60-32f792c0eb09" "4bd7aa62-10d7-493a-9aaa-15b3a4a61b62"
+			"50ea2e16-1790-43fd-bae8-e2b482237c03" "5f62f44f-4703-41c8-b04c-5f74c7fc2fa3"
+			"64d6868a-f9e5-42c9-b998-cb720dfef56b" "65e27c9f-d16f-4031-9ffd-fc2fd826a6a9"
+			"753afaa1-0ebb-4073-b54f-fe7017cab049" "885f5cca-6205-41b3-8391-836988e3b475"
+			"92ab89e0-2686-4027-b9c7-53db87f32243" "9ed58afb-b925-41c1-a761-3c7b812ba96b"
+			"a43d38d8-b34d-422a-a766-bbb52be6ad45" "a7faf8e1-2291-459a-92ee-ab987d4345db"
+			"b2a820eb-b783-4e1f-b83a-a7a0dae965ab" "b6b19472-3ec6-4e39-a0d9-930934425199"
+			"c131a8dc-823a-4ff3-ac65-e482af8cea7b" "c5b485b0-9534-4048-8b82-fd68a3d97f9b"
+			"c7fab91c-4a26-4925-a85d-e27f202add17" "c9de9c0f-0f86-485d-95b1-522b2afedfa7"
+			"cbaaa079-b1ac-4352-920c-a6d986f916e2" "cf28c322-ef8d-43d5-b11a-afce221be219"
+			"d046ca46-3bda-4053-bcc6-fac1c8a76122" "d375a6a1-f7a1-4595-9121-b7cf7fc391a4"
+			"dfee9b27-3236-48ec-b161-496387d06598" "e252ca6d-3f8a-428d-9d2a-bdb01b820655"
+			"ea9a6746-549a-4075-92a4-326294cc27fc" "ecc175c0-710b-4301-a438-8fe1630de94f"
+			"fe8cd0fd-9be1-4f2d-8946-2528d3ad1bf7"
+		)
+	)
+	(group "LED驱动2"
+		(uuid "f437b8fe-f778-40a6-9e69-9349b0e02eb8")
+		(members "005b45c2-5ea2-4e0b-aee6-50232a8ab184" "0bbe6fc5-a350-4792-8da4-a8a31278f0a3"
+			"0f97ea86-de66-4bba-b97c-9d635b12c5b3" "1280d006-701a-441a-8fdf-cbd7a57dec46"
+			"1ced776a-fe9f-4807-88bf-f0d6727850b3" "25a1f4ca-6500-4611-b3a3-59ea673b4858"
+			"26d5f874-eb66-4966-bd17-ea64d40f30e6" "2ac4c2d5-6eda-42d4-8a08-fb3d84110c1e"
+			"329507db-0110-4f4c-a287-b5e210ede25e" "33142afd-f62a-41b5-91aa-b128cecec052"
+			"335de58a-b32a-4846-8020-9221dc0a1f94" "33cd6897-640f-4607-8486-99fdc1f2a1fb"
+			"34f557e4-06d5-4633-a32d-ee80ed488d18" "3c9a66d8-7e1f-41fe-9cf8-062af468ba43"
+			"3dcee007-a953-4047-b139-c90e70b32f2c" "4df9cbba-8301-494d-9cb4-0c4d782ca710"
+			"534c4387-fa94-4c27-aa60-1f5a0ac35d30" "5376c480-0d2e-4baf-9999-dbcd24f2806c"
+			"63df6b1e-b0ea-4dfa-bdbf-9d284d42eebe" "75d9c276-231f-4123-a6d2-ac78ab6f63fe"
+			"851d2e20-44d9-481c-ba65-ef4c09bf0748" "87230fd5-6473-4125-80ad-4fa923b5b98b"
+			"8738ee78-8729-4fa2-9883-0f97829834ba" "967ed928-2afa-4652-82b6-6ace0445db2c"
+			"968096c8-2885-471c-b110-edebba27516b" "9c9f5d86-7c47-484f-abaa-c01f15b45133"
+			"9fc75287-d598-4420-b374-8129653267e0" "b08814dc-f48f-4863-ba1b-87fefa40b3fa"
+			"b189e7e7-5739-4240-a945-7a6c3875f5bf" "b5bed891-8735-482a-a646-827b0cc8f186"
+			"c107401c-1e01-41f4-a233-0e72cfe400d0" "c771afb1-d7a6-4128-a7a9-6d3963725425"
+			"cb298181-9961-487e-bec0-86a880725c3c" "d2ee8d33-1a0a-49ff-b804-9039176e70c1"
+			"d9718a42-881d-4341-83b0-7a5394e92c4e" "e74b9fbe-7afb-419f-8962-3e87b4363741"
+			"e893c293-ef66-4174-a6da-c88039a2a1ac" "e9a01306-a6fa-44e2-a119-1550557db027"
+			"ea757953-b0a7-48bb-aa9a-da1c96b09c24" "fc07321b-fc6a-4869-9866-791ce4ba7aa9"
 		)
 	)
 	(group "3.3V LDO电路"
