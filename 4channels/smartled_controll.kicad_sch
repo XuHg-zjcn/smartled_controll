@@ -8235,6 +8235,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 82.55) (xy 162.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7273edb8-8b5f-4a5b-a9ec-91268b4e4139")
+	)
+	(wire
+		(pts
 			(xy 217.17 85.09) (xy 209.55 85.09)
 		)
 		(stroke
@@ -8375,7 +8385,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 82.55) (xy 162.56 82.55)
+			(xy 152.4 82.55) (xy 153.67 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9944,7 +9954,7 @@
 		(uuid "04d34ee1-3ad0-42dd-8060-7c57b9662b60")
 	)
 	(label "MAX485_RO"
-		(at 161.29 82.55 180)
+		(at 152.4 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18062,6 +18072,76 @@
 			(project ""
 				(path "/b299fa7e-4ddc-4ca9-9929-510e6cf892c6"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 157.48 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca1e6000-026c-4b3b-80e6-381125260122")
+		(property "Reference" "D16"
+			(at 158.6922 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.0V"
+			(at 156.2679 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 157.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 157.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "255d9628-27d5-4176-9c63-62463814cded")
+		)
+		(pin "2"
+			(uuid "11238207-840d-4343-b459-bbde62b730ef")
+		)
+		(instances
+			(project "smartled_controll"
+				(path "/b299fa7e-4ddc-4ca9-9929-510e6cf892c6"
+					(reference "D16")
 					(unit 1)
 				)
 			)
