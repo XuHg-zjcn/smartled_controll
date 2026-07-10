@@ -5490,7 +5490,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias"
+			(property "Footprint" "project_footprints:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias_0.3_0.6mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5693,10 +5693,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -10.16 90)
+				(pin output line
+					(at 10.16 5.08 180)
 					(length 2.54) hide
-					(name "GND"
+					(name "EP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14827,7 +14827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias"
+		(property "Footprint" "project_footprints:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias_0.3_0.6mm"
 			(at 80.01 180.34 0)
 			(effects
 				(font
@@ -15322,7 +15322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias"
+		(property "Footprint" "project_footprints:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias_0.3_0.6mm"
 			(at 80.01 142.24 0)
 			(effects
 				(font
@@ -15826,7 +15826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias"
+		(property "Footprint" "project_footprints:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias_0.3_0.6mm"
 			(at 38.1 142.24 0)
 			(effects
 				(font
@@ -16751,7 +16751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias"
+		(property "Footprint" "project_footprints:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias_0.3_0.6mm"
 			(at 34.29 180.34 0)
 			(effects
 				(font
